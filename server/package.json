@@ -9,6 +9,7 @@
     "seed" : "nodemon -r dotenv/config --experimental-json-modules seed.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
