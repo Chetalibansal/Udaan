@@ -7,12 +7,14 @@ const attendanceSchema = new mongoose.Schema(
       ref: "Student",
       required: true,
     },
-    totalClasses: { 
-        type: Number,
-        required: true },
-    attendedClasses: { 
-        type: Number, 
-        required: true },
+    totalClasses: {
+      type: Number,
+      required: true,
+    },
+    attendedClasses: {
+      type: Number,
+      required: true,
+    },
   },
   { timestamps: true }
 );

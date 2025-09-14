@@ -4,18 +4,15 @@ const studentSchema = new mongoose.Schema(
   {
     userId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User", 
+      ref: "User",
     },
-    rollNo: { 
-        type: String, 
-        required: true, 
-        unique: true },
+    rollNo: {
+      type: String,
+      required: true,
+      unique: true,
+    },
     class: String,
-    section : varchar,
-    parentId : {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Parent", 
-    },
+    section: String,
     feeStatus: {
       type: String,
       enum: ["paid", "unpaid", "partial"],
