@@ -1,8 +1,8 @@
 import Student from "../models/student.model.js";
 import Attendance from "../models/attendance.model.js";
 import Score from "../models/score.model.js";
-import asyncHandler from "../utils/asyncHandler.js";
-import ApiError from "../utils/ApiError.js";
+import {asyncHandler} from "../utils/asyncHandler.js";
+import {ApiError} from "../utils/ApiError.js";
 
 // Get a single student with attendance % and average score
 export const getStudentById = asyncHandler(async (req, res) => {
