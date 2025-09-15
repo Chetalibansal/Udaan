@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema(
     OAuthId: { type: String }, // For OAuth
     role: {
       type: String,
-      enum: ["student/parent", "teacher/mentor", "admin"],
+      enum: ["student","parent", "teacher","mentor", "admin"],
       required: true,
     },
   },

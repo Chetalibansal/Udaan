@@ -1,8 +1,9 @@
 import { ApiError } from "../utils/ApiError.js";
-import { asyncHandler } from "../utils/asyncHandler.js";
+import {asyncHandler} from "../utils/asyncHandler.js";
 import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 import { ApiResponse } from "../utils/ApiResponse.js";
+import { generateToken } from "../utils/generateToken.js";
 
 // Register user
 export const registerUser = asyncHandler(async (req, res) => {
@@ -21,6 +22,7 @@ export const registerUser = asyncHandler(async (req, res) => {
     email,
     password: hashedPassword,
     role,
+    
   });
   if (!user) throw new ApiError(500, "User creation failed");
   await user.save();
@@ -44,7 +46,7 @@ export const loginUser = asyncHandler(async (req, res) => {
   const user = await User.findOne({ email });
   if (!user) throw new ApiError(401, "Invalid credentials");
 
-  const isMatch = await bcrypt.compare(password, user.password);
+  const isMatch = bcrypt.compare(password, user.password);
   if (!isMatch) throw new ApiError(401, "Invalid credentials");
 
   const token = generateToken(user._id, user.role);
