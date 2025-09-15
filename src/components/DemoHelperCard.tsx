@@ -49,11 +49,11 @@ export const DemoHelperCard = () => {
                 <Heart className="h-4 w-4 text-warning" />
               </div>
               <div>
-                <p className="font-medium">Parent Dashboard</p>
-                <p className="text-sm text-muted-foreground">Child's progress monitoring</p>
+                <p className="font-medium">Admin Dashboard</p>
+                <p className="text-sm text-muted-foreground">System monitoring and user creation</p>
               </div>
             </div>
-            <Badge variant="outline">parent@demo.com</Badge>
+            <Badge variant="outline">admin@demo.com</Badge>
           </div>
         </div>
         

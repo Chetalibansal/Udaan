@@ -204,7 +204,7 @@ export const AuthPage = () => {
                       <SelectContent>
                         <SelectItem value="student">Student</SelectItem>
                         <SelectItem value="teacher">Teacher</SelectItem>
-                        <SelectItem value="parent">Parent</SelectItem>
+                        <SelectItem value="parent">Admin</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
