@@ -38,14 +38,14 @@ const classStats = {
 };
 
 const students = [
-  { id: 1, name: "Alice Johnson", attendance: 95, avgScore: 88, feeStatus: "Paid", riskLevel: "safe" },
-  { id: 2, name: "Bob Smith", attendance: 45, avgScore: 62, feeStatus: "Pending", riskLevel: "danger" },
-  { id: 3, name: "Carol Davis", attendance: 78, avgScore: 72, feeStatus: "Paid", riskLevel: "warning" },
-  { id: 4, name: "David Wilson", attendance: 92, avgScore: 85, feeStatus: "Paid", riskLevel: "safe" },
-  { id: 5, name: "Emma Brown", attendance: 55, avgScore: 58, feeStatus: "Pending", riskLevel: "danger" },
-  { id: 6, name: "Frank Miller", attendance: 88, avgScore: 76, feeStatus: "Paid", riskLevel: "safe" },
-  { id: 7, name: "Grace Taylor", attendance: 65, avgScore: 68, feeStatus: "Paid", riskLevel: "warning" },
-  { id: 8, name: "Henry Anderson", attendance: 90, avgScore: 82, feeStatus: "Paid", riskLevel: "safe" },
+  { id: 1, name: "Student 1", attendance: 95, avgScore: 88, feeStatus: "Paid", riskLevel: "safe" },
+  { id: 2, name: "Student 2", attendance: 45, avgScore: 62, feeStatus: "Pending", riskLevel: "danger" },
+  { id: 3, name: "Student 3", attendance: 78, avgScore: 72, feeStatus: "Paid", riskLevel: "warning" },
+  { id: 4, name: "Student 4", attendance: 92, avgScore: 85, feeStatus: "Paid", riskLevel: "safe" },
+  { id: 5, name: "Student 5", attendance: 55, avgScore: 58, feeStatus: "Pending", riskLevel: "danger" },
+  { id: 6, name: "Student 6", attendance: 88, avgScore: 76, feeStatus: "Paid", riskLevel: "safe" },
+  { id: 7, name: "Student 7", attendance: 65, avgScore: 68, feeStatus: "Paid", riskLevel: "warning" },
+  { id: 8, name: "Student 8", attendance: 90, avgScore: 82, feeStatus: "Paid", riskLevel: "safe" },
 ];
 
 const riskDistribution = [

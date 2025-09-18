@@ -28,7 +28,7 @@ import {
 
 // Mock data for child
 const childData = {
-  name: "Emma Johnson",
+  name: "Anuj Tiwari",
   grade: "Grade 10",
   class: "10-A",
   attendance: 78,
@@ -81,22 +81,22 @@ const alerts = [
 const teacherMessages = [
   {
     id: 1,
-    teacher: "Ms. Smith (Math)",
-    message: "Emma is showing good progress in algebra. Keep encouraging her practice.",
+    teacher: "Teacher 1(Maths)",
+    message: "Anuj is showing good progress in algebra. Keep encouraging her practice.",
     time: "3 hours ago",
     subject: "Math Progress Update"
   },
   {
     id: 2,
-    teacher: "Mr. Davis (Science)",
-    message: "Please ensure Emma completes the chemistry lab report by Friday.",
+    teacher: "Teacher 2 (Science)",
+    message: "Please ensure Anuj completes the chemistry lab report by Friday.",
     time: "1 day ago",
     subject: "Lab Assignment"
   },
   {
     id: 3,
-    teacher: "Mrs. Wilson (English)",
-    message: "Emma's essay writing has improved significantly. Well done!",
+    teacher: "Teacher 3 (English)",
+    message: "Anuj's essay writing has improved significantly. Well done!",
     time: "2 days ago",
     subject: "Writing Improvement"
   },
